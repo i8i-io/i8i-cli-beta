@@ -1,0 +1,11 @@
+version: "3"
+services:
+  i8i-cli:
+    image: public.ecr.aws/b6g9t8f1/i8i-cli:beta
+    environment:
+      i8i_API_KEY: <YOUR_API_KEY>
+    volumes:
+      - .:/cliApp
+      - ~/.aws/:/root/.aws
+    working_dir: /cliApp
+    user: root
