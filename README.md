@@ -9,4 +9,4 @@ make <COMMAND> <PARAMETERS>
 
 Replace _i8i_API_KEY_ with your API Key.
 
-See [documentation](https://docs.i8i.io/cli) available commands and usage.
+See [documentation](https://docs.i8i.io/cli) for available commands and usage.
